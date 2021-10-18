@@ -5,7 +5,7 @@
   <i>Artwork by <a href=https://undraw.co/">Katerina Limpitsouni</a></i>
 </p>
 
-<h1 align="center">gatsby-plugin-reading-time</h1>
+<h1 align="center">gatsby-plugin-reading-time-2</h1>
 <p align="center">A Gatsby plugin to estimate your markdown files reading time.</p>
 
 > _This plugin is sort of a fork from [`gatsby-remark-reading-time`](https://github.com/syntra/gatsby-remark-reading-time) updated and with added configuration._ 
@@ -20,23 +20,23 @@
 
 For Yarn users:
 ```sh
-yarn add gatsby-plugin-reading-time
+yarn add gatsby-plugin-reading-time-2
 ```
 For Npm users:
 ```sh
-npm install gatsby-plugin-reading-time
+npm install gatsby-plugin-reading-time-2
 ```
 
 ## 🚀 Usage
 
 ### With `Mdx`
 
-Add `gatsby-plugin-reading-time` as a plugin in `gatsby-config.js`:
+Add `gatsby-plugin-reading-time-2` as a plugin in `gatsby-config.js`:
 ```js
 module.exports ={
   plugins: [
     // ...
-    `gatsby-plugin-reading-time`,
+    `gatsby-plugin-reading-time-2`,
     // ...
   ],
 }
@@ -44,7 +44,7 @@ module.exports ={
 
 ### With `MarkdownRemark`
 
-Add `gatsby-plugin-reading-time` as a `MarkdownRemark` plugin in `gatsby-config.js`:
+Add `gatsby-plugin-reading-time-2` as a `MarkdownRemark` plugin in `gatsby-config.js`:
 ```js
 module.exports ={
   plugins: [
@@ -54,7 +54,7 @@ module.exports ={
       options: {
         plugins: [
           // ...
-          `gatsby-plugin-reading-time`,
+          `gatsby-plugin-reading-time-2`,
           //... 
         ]
       }
@@ -74,7 +74,7 @@ Resolve the plugin as follows to use them:
 
 ```js
 {
-  resolve: `gatsby-plugin-reading-time`,
+  resolve: `gatsby-plugin-reading-time-2`,
   options: {
     wordsPerMinute: 200,
     wordBound: function(c) { return ' \n\r\t'.includes(c) },
@@ -85,7 +85,7 @@ Resolve the plugin as follows to use them:
 ## 🤝 Contributing
 
 Any contribution to the project is welome.  
-Run into a problem? Open an [issue](https://github.com/prazdevs/gatsby-plugin-reading-time/issues/new/choose).  
+Run into a problem? Open an [issue](https://github.com/prazdevs/gatsby-plugin-reading-time-2/issues/new/choose).  
 Want to add some feature? PRs are welcome!
 
 ## 📝 Licence
