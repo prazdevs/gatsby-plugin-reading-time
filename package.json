@@ -1,6 +1,6 @@
 {
   "name": "gatsby-plugin-reading-time-2",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "📰 Gatsby plugin for reading-time integration",
   "keywords": ["gatsby", "gatsby-plugin"],
   "license": "MIT",
