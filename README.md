@@ -90,5 +90,5 @@ Want to add some feature? PRs are welcome!
 
 ## 📝 Licence
 
-Copyright © 2020 [Sacha Bouillez](https://github.com/prazdevs).<br />
+Copyright © 2021 [Sacha Bouillez](https://github.com/prazdevs).<br />
 This project is under [MIT](https://github.com/prazdevs/gatsby-plugin-reading-time/blob/main/LICENCE) license.
