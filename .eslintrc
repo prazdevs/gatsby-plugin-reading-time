@@ -1,0 +1,4 @@
+{
+  "extends": "@prazdevs/eslint-config-javascript",
+  "ignorePatterns": ["node_modules", "pnpm-lock.yaml"]
+}
