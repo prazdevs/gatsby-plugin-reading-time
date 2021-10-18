@@ -8,7 +8,7 @@
 <h1 align="center">gatsby-plugin-reading-time</h1>
 <p align="center">A Gatsby plugin to estimate your markdown files reading time.</p>
 
-> _This plugin is sort of a fork from [`gatsby-remark-reading-time`](https://github.com/syntra/gatsby-remark-reading-time) update and with added configuration._ 
+> _This plugin is sort of a fork from [`gatsby-remark-reading-time`](https://github.com/syntra/gatsby-remark-reading-time) updated and with added configuration._ 
 
 ## ✨ Features
 
@@ -64,7 +64,7 @@ module.exports ={
 }
 ```
 
-## 🔧 Configuration options
+## 🔧 Configuration
 
 This plugin accepts 2 options following [`reading-time`](https://github.com/ngryman/reading-time) options: 
 - `options.wordsPerMinute`: the words per minute an average reader can read (default: 200).
